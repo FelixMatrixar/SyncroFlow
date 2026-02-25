@@ -1,0 +1,22 @@
+{
+  "detections": [
+    {
+      "class": "person",
+      "confidence": 0.57,
+      "bbox": [
+        57.76,
+        15.21,
+        42.06,
+        84.59
+      ]
+    }
+  ],
+  "analysis": {
+    "condition_met": true,
+    "summary": "Two people are visible in the frame.",
+    "extractedData": {},
+    "confidence": 1
+  },
+  "timestamp": "2025-10-19T08:38:51.729Z",
+  "userPrompt": "Pipeline results"
+}

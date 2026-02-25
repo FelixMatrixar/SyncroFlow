@@ -1,0 +1,24 @@
+{
+  "detections": [
+    {
+      "class": "person",
+      "confidence": 0.88,
+      "bbox": [
+        0.13,
+        24.66,
+        91.98,
+        75.05
+      ]
+    }
+  ],
+  "analysis": {
+    "condition_met": true,
+    "summary": "A person is visible in the image.",
+    "extractedData": {
+      "person": "present"
+    },
+    "confidence": 1
+  },
+  "timestamp": "2025-10-19T05:26:12.632Z",
+  "userPrompt": "Pipeline results"
+}

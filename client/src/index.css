@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PERSONA 5 THEME - Forced Dark Mode with High Contrast Red/Black */
+:root, .dark {
+  --background: 0 0% 5%; /* Very deep almost-black */
+  --foreground: 0 0% 98%; /* Stark white */
+  
+  --card: 0 0% 8%;
+  --card-foreground: 0 0% 98%;
+  --card-border: 350 85% 45%; /* P5 Red Borders */
+  
+  --popover: 0 0% 8%;
+  --popover-foreground: 0 0% 98%;
+  --popover-border: 350 85% 45%;
+
+  /* The iconic P5 Crimson Red */
+  --primary: 350 85% 45%; 
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 0 0% 15%; /* Dark gray for secondary elements */
+  --secondary-foreground: 0 0% 98%;
+  
+  --muted: 0 0% 12%;
+  --muted-foreground: 0 0% 65%;
+  
+  --accent: 350 85% 45%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* Aggressive Red UI Outlines */
+  --border: 350 85% 45%; 
+  --input: 0 0% 15%;
+  --ring: 350 85% 45%;
+  
+  /* Sidebar styling */
+  --sidebar: 0 0% 3%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-border: 350 85% 45%;
+  --sidebar-primary: 350 85% 45%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 0 0% 15%;
+  --sidebar-accent-foreground: 0 0% 98%;
+  --sidebar-ring: 350 85% 45%;
+
+  /* P5 UI has NO rounded corners. Everything is sharp and angular. */
+  --radius: 0rem; 
+
+  /* Keep your existing shadow and font configs */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  --shadow: 4px 4px 0px 0px hsl(350 85% 45% / 0.5); /* Hard red drop shadows */
+  --shadow-md: 6px 6px 0px 0px hsl(350 85% 45% / 0.5);
+  --shadow-lg: 8px 8px 0px 0px hsl(350 85% 45% / 0.5);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    /* Optional: Add a subtle halftone/dot pattern to the background for a comic feel */
+    background-image: radial-gradient(hsl(350 85% 45% / 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
+@layer utilities {
+  /* P5 styled jagged borders for specific elements if needed */
+  .p5-jagged {
+    clip-path: polygon(0 0, 100% 5%, 95% 100%, 5% 95%);
+  }
+
+  /* Sharp italic text often used in the game menus */
+  .p5-text {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
