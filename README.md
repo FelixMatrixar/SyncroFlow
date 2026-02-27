@@ -1,8 +1,13 @@
 <div align="center">
-    # SyncroFlow 
-    *Demo Video*
-    [![SyncroFlow Demo](https://img.youtube.com/vi/z0_sX_81Mok/maxresdefault.jpg)](https://www.youtube.com/watch?v=z0_sX_81Mok)
-    A visual logic engine for real-time video intelligence that transforms complex AI video pipelines into simple, drag-and-drop nodes using ultra-low latency WebRTC streaming.
+
+# SyncroFlow 
+
+*Demo Video*
+
+[![SyncroFlow Demo](https://img.youtube.com/vi/z0_sX_81Mok/maxresdefault.jpg)](https://www.youtube.com/watch?v=z0_sX_81Mok)
+
+A visual logic engine for real-time video intelligence that transforms complex AI video pipelines into simple, drag-and-drop nodes using ultra-low latency WebRTC streaming.
+
 </div>
 
 ## Overview
