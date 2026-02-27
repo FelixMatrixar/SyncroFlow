@@ -3,7 +3,7 @@
 A visual logic engine for real-time video intelligence that transforms complex AI video pipelines into simple, drag-and-drop nodes using ultra-low latency WebRTC streaming.
 
 ## Overview
-![infographics](assets/infographics.mp4)
+![infographics](assets/infographics.png)
 SyncroFlow enables users to build custom computer vision and AI monitoring tools in seconds without requiring weeks of development. It combines drag-and-drop visual programming with AI-powered video analysis capabilities.
 
 ## Core Features
