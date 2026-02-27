@@ -1,8 +1,27 @@
-node_modules
-dist
-.DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+# Node dependencies
+node_modules/
+npm-debug.log
+
+# Python environments & cache
+__pycache__/
+*.py[cod]
+*$py.class
+python_backend/venv/
+venv/
+env/
+
+# Environment variables (NEVER push this!)
 .env
-venv
+
+# Uploads, models, and generated files
+python_backend/models/
+uploads/
+results/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build folders (Vite/React)
+dist/
+build/
