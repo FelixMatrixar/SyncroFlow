@@ -1,6 +1,9 @@
-# SyncroFlow 
-[![SyncroFlow Demo](https://img.youtube.com/vi/z0_sX_81Mok/maxresdefault.jpg)](https://www.youtube.com/watch?v=z0_sX_81Mok)
-A visual logic engine for real-time video intelligence that transforms complex AI video pipelines into simple, drag-and-drop nodes using ultra-low latency WebRTC streaming.
+<div align="center">
+    # SyncroFlow 
+    *Demo Video*
+    [![SyncroFlow Demo](https://img.youtube.com/vi/z0_sX_81Mok/maxresdefault.jpg)](https://www.youtube.com/watch?v=z0_sX_81Mok)
+    A visual logic engine for real-time video intelligence that transforms complex AI video pipelines into simple, drag-and-drop nodes using ultra-low latency WebRTC streaming.
+</div>
 
 ## Overview
 ![infographics](assets/infographics.png)
@@ -40,7 +43,6 @@ SyncroFlow enables users to build custom computer vision and AI monitoring tools
     Create a .env file in the root directory. The system relies on these keys for AI inference and external communication nodes:
     ```bash
     OPENROUTER_API_KEY=your_openrouter_key  # Required for visual/audio analysis nodes
-    GEMINI_API_KEY=your_gemini_key          # Required for Gemini Live WebSockets
 
     TWILIO_ACCOUNT_SID=your_twilio_sid      # For SMS & Voice Call nodes
     TWILIO_AUTH_TOKEN=your_twilio_token
